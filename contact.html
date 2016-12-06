@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from ctu-prague-web.dev.catchx.cz/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Sep 2016 09:51:48 GMT -->
+<!-- Mirrored from ctu-prague-web.dev.catchx.cz/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Sep 2016 09:58:32 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home - Programming Research Laboratory - CVUT</title>
+    <title>Contact - Programming Research Laboratory - CVUT</title>
 
     <!--Fonts-->
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
@@ -29,7 +29,7 @@
 <!--[if IE]><link rel="shortcut icon" href="/images/favicon/favicon-32x32.ico"><![endif]-->
 
 <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 96x96 pixels in size. -->
-<link rel="icon" sizes="96x96" href="images/favicon/favicon.ico">
+<link rel="icon" sizes="96x96" href="images/favicon/favicon-96x9677ae.png?ver=2">
 
 <!-- Apple. 76x76 and 180x180 pixels in size. -->
 <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
@@ -46,8 +46,8 @@
 
 <body>
 <div id="background" class="background-stat"></div>
-    <!--Menu fixed top-->
-    <nav class="navbar-default navbar-inverse noslider" id="nav">
+<!--Menu fixed top-->
+<nav class="navbar-default navbar-inverse noslider" id="nav">
     <div class="container">
         <div class="row">
             <div class="navbar-header">
@@ -57,43 +57,73 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="/" class="navbar-brand"><img src="images/logo.png"></a>
+                <a href="https://prl-prg.github.io/" class="navbar-brand"><img src="images/prl-logo-header.png"></a>
             </div>
-            <div id="navbar" class="navbar-collapse collapse pull-right">
+            <div id="navbar" class="navbar-collapse collapse text-center with-logo">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active" ><a href="contact.html">Contact</a></li>
+                    <li ><a href="index.html">Home</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
                 </ul>
+                
             </div><!--/.navbar-collapse -->
         </div>
     </div>
-</nav>    <!--Header-->
-
-    <!-- Content-->
-    <div class="container-fluid main-container">
-        <div class="row main-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Contact</h2>
-                        <div class="font-17">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        </div> 
-                    </div>
+</nav><!--Header-->
+<header class="container-fluid header-padding">
+</header>
+<!-- Content-->
+<div class="container-fluid main-container" id="people">
+    <div class="row block-content text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="big-header">Contact</span>
                 </div>
             </div>
         </div>
-
     </div>
+    
+    <div class="row block-content bg-1"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>For general inquiries email: <a href="mailto:j.vitek@neu.edu">j.vitek@neu.edu</a></p>
 
-    <!--Footer-->
-    <footer class="container-fluid">
+                    <p><strong>Location:</strong></p>
+                    
+                    <p>Faculty of Information Technology<br />
+                    Czech Technical University in Prague<br /> 
+                    Thákurova 9, 160 00 Prague 6<br /> 
+                    Czech Republic
+                    </p>
+                    
+                    <p>Our office is located at A-1254.<br /> 
+                    On the 12th floor in the building of Fakulta Stavební.
+                    </p>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="map-holder">
+                        <div class="google-map-canvas" id="map-canvas" style="height: 250px;">
+                        </div>
+                    </div> <!-- /.map-holder --> 
+                </div>
+                <div class="col-md-12">
+                    <p><strong>Directions:</strong></p>
+                    <p>The nearest public transport is the Metro station Dejvická, located on the A (green) subway line.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Footer-->
+<footer class="container-fluid">
     <p>© Copyright Czech technical university in Prague 2016-2017 | made by <a href="http://www.catchexception.cz/" target="_blank">Catchexception s.r.o.</a></p>
 </footer>
-    <!--Loader-->
-</div>
-    <!--Scroll to top button-->
-    <a href="#" class="scroll-to-top"><span class="glyphicon glyphicon-menu-up"></span></a>
+
+<!--Scroll to top button-->
+<a href="#" class="scroll-to-top"><span class="glyphicon glyphicon-menu-up"></span></a>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -104,8 +134,51 @@
         <script src="js/jquery.flexsliderd41d.js?"></script>
         <script src="js/customd41d.js?"></script>
 
+        <script type="text/javascript">
 
+    function initialize() {
+          var myLatlng = new google.maps.LatLng(50.1049306, 14.38998);
+          var markerLatlng = new google.maps.LatLng(50.1049306, 14.38998);
+          /*var markerLatlng = new google.maps.LatLng(50.1392978, 14.0954);*/
+          
+          var mapOptions = {
+			        scrollwheel: false,
+              zoom: 17,
+              center: markerLatlng
+          };
+
+          var map = new google.maps.Map(document.getElementById('map-canvas'),
+              mapOptions);
+          
+          var marker = new google.maps.Marker({
+            position: markerLatlng,
+            map: map,
+            /*label: 'PRL-PRG',*/
+            /*animation: google.maps.Animation.DROP,*/
+            title: 'PRL-PRG'
+          });
+        
+        } 
+
+        function loadScript() {
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&' +
+              'callback=initialize&key=AIzaSyC9HM4VTq6fmNiS6VdBhXLpt8zJZ7AWZus&language=en&region=EN';
+          document.body.appendChild(script);
+        }
+
+        window.onload = loadScript;
+
+        $(document).keyup(function(e) {
+            if (e.keyCode == 27) { // escape key maps to keycode `27`
+                $('#myModal').modal('hide');
+            }
+        });
+
+</script>
+            
 </body>
 
-<!-- Mirrored from ctu-prague-web.dev.catchx.cz/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Sep 2016 09:55:14 GMT -->
+<!-- Mirrored from ctu-prague-web.dev.catchx.cz/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Sep 2016 09:58:32 GMT -->
 </html>
