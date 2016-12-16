@@ -50,7 +50,26 @@ $(document).ready(function(){
         $("#background").addClass('background-anim');
     }
 
+    footerPosition();
+    $( window ).resize(function() {
+        footerPosition();
+    });
+
 });
+
+function footerPosition()
+{
+    var w_h = $(window).height();
+    var w_w = $(window).width(); 
+    var b_h = $('body').height();
+    if(b_h<w_h && w_w>768)
+    {
+        $('footer').addClass("fixed");
+    }
+    else
+        $('footer').removeClass("fixed");   
+}
+
 // FlexSlider plugin
 $('.flexslider').flexslider({
     animation : 'fade',

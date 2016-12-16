@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from ctu-prague-web.dev.catchx.cz/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Sep 2016 09:58:32 GMT -->
+<!-- Mirrored from ctu-prague-web.dev.catchx.cz/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Sep 2016 09:51:48 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact - Programming Research Laboratory - CVUT</title>
+    <title>Evolving Language Ecosystems (ELE)</title>
 
     <!--Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+<!-- 
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-
+-->
 <!-- Bootstrap -->
 <!-- Loader css -->
 <!-- Jquery FlexSlider http://flexslider.woothemes.com -->
@@ -47,7 +49,7 @@
 <body>
 <div id="background" class="background-stat"></div>
 <!--Menu fixed top-->
-<nav class="navbar-default navbar-inverse noslider" id="nav">
+<nav class="navbar-default navbar-inverse noslider absolute" id="nav">
     <div class="container">
         <div class="row">
             <div class="navbar-header">
@@ -59,17 +61,20 @@
                 </button>
                 <a href="index.html" class="navbar-brand"><img src="images/erc_logo_horizontal.png"></a>
             </div>
-            <div id="navbar" class="navbar-collapse collapse text-center with-logo">
+            <div id="navbar" class="navbar-collapse collapse text-center">
                 <ul class="nav navbar-nav">
                     <li ><a href="index.html">Home</a></li>
                     <li ><a href="mission.html">Mission</a></li>
                     <li class="active"><a href="task.html">Task</a></li>
+                    <li ><a href="peoples.html">Peoples</a></li>
+                    <li ><a href="publications.html">Publications</a></li>
+                    <li ><a href="events.html">Events</a></li>
                 </ul>
-                
             </div><!--/.navbar-collapse -->
         </div>
     </div>
-</nav><!--Header-->
+</nav>
+<!--Header-->
 <header class="container-fluid header-padding">
 </header>
 <!-- Content-->
@@ -77,27 +82,21 @@
     <div class="row main-content bg-1">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <span class="big-header">Task</span>
+                <div class="col-md-12 text-center">
+                    <span class="big-header">Task</span> 
                 </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="row block-content"> 
-        <div class="container">
-            <div class="row">
+                <div class="col-md-12 text-center padding-bottom">
+                    <span class="small-header">
+                        The generation efficient implementations for a complete language from lightweight specifications.
+                    </span>
+                </div>
+
                 <div class="col-md-12 font-17">
-
-                        <p class="pn-citation">
-                            The generation efficient implementations for a complete language from lightweight specifications.
-                        </p>
-
                         <p>
                             One challenge for language evolution is how to keep a language’s semantics in sync with its implementation when either changes and ensure that the latter is correct with respect to the former. Traditionally, formal semantics were paper-and-pencil exercises that captured only the small subset of the language the authors thought of as interesting. This is changing with the advent of executable domain specific languages for mechanizing semantics models such as Redex, Ott and K. 
                         </p>
 
-                        <p class="pn-citation">
+                        <p class="pn-citation text-center">
                             Is performance pathologies avoidable?
                         </p>
 
@@ -116,8 +115,32 @@
 </div>
 
 <!--Footer-->
-<footer class="container-fluid">
-    <p>© Copyright Czech technical university in Prague 2016-2017 | made by <a href="http://www.catchexception.cz/" target="_blank">Catchexception s.r.o.</a></p>
+<footer>
+  <div class="container-fluid" id="menu">
+      <nav class="navbar-inverse relative">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header pull-left">
+                    <a href="index.html" class="navbar-brand"><img src="images/erc_logo_inv.png"></a>
+                </div>
+                <div class="text-center">
+                    <ul class="nav navbar-nav">
+                        <li ><a href="index.html">Home</a></li>
+                        <li ><a href="mission.html">Mission</a></li>
+                        <li class="active"><a href="task.html">Task</a></li>
+                        <li ><a href="peoples.html">Peoples</a></li>
+                        <li ><a href="publications.html">Publications</a></li>
+                        <li ><a href="events.html">Events</a></li>
+                    </ul>
+                </div><!--/.navbar-collapse -->
+            </div>
+        </div>
+    </nav>
+  </div>
+  
+  <div class="container-fluid" id="copyright">
+      <p>© Copyright Evolving Language Ecosystems 2016-2017 | made by <a href="http://www.catchexception.cz/" target="_blank">Catchexception s.r.o.</a></p>
+  </div>
 </footer>
 
 <!--Scroll to top button-->
@@ -129,53 +152,8 @@
 <!-- Custom scripts -->
         <script src="js/jquery-2.2.4.mind41d.js?"></script>
         <script src="js/bootstrap.mind41d.js?"></script>
-        <script src="js/jquery.flexsliderd41d.js?"></script>
-        <script src="js/customd41d.js?"></script>
-
-        <script type="text/javascript">
-
-    function initialize() {
-          var myLatlng = new google.maps.LatLng(50.1049306, 14.38998);
-          var markerLatlng = new google.maps.LatLng(50.1049306, 14.38998);
-          /*var markerLatlng = new google.maps.LatLng(50.1392978, 14.0954);*/
-          
-          var mapOptions = {
-			        scrollwheel: false,
-              zoom: 17,
-              center: markerLatlng
-          };
-
-          var map = new google.maps.Map(document.getElementById('map-canvas'),
-              mapOptions);
-          
-          var marker = new google.maps.Marker({
-            position: markerLatlng,
-            map: map,
-            /*label: 'PRL-PRG',*/
-            /*animation: google.maps.Animation.DROP,*/
-            title: 'PRL-PRG'
-          });
-        
-        } 
-
-        function loadScript() {
-          var script = document.createElement('script');
-          script.type = 'text/javascript';
-          script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&' +
-              'callback=initialize&key=AIzaSyC9HM4VTq6fmNiS6VdBhXLpt8zJZ7AWZus&language=en&region=EN';
-          document.body.appendChild(script);
-        }
-
-        window.onload = loadScript;
-
-        $(document).keyup(function(e) {
-            if (e.keyCode == 27) { // escape key maps to keycode `27`
-                $('#myModal').modal('hide');
-            }
-        });
-
-</script>
-            
+        <script src="js/customd41d.js?"></script> <script src="js/jquery.flexsliderd41d.js?"></script>
+        <script src="js/customd41d.js?"></script> 
 </body>
 
 <!-- Mirrored from ctu-prague-web.dev.catchx.cz/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Sep 2016 09:58:32 GMT -->

@@ -10,9 +10,11 @@
     <title>Evolving Language Ecosystems (ELE)</title>
 
     <!--Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+<!-- 
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-
+-->
 <!-- Bootstrap -->
 <!-- Loader css -->
 <!-- Jquery FlexSlider http://flexslider.woothemes.com -->
@@ -47,7 +49,7 @@
 <body>
 <div id="background" class="background-stat"></div>
 <!--Menu fixed top-->
-<nav class="navbar-default navbar-inverse noslider" id="nav">
+<nav class="navbar-default navbar-inverse slider absolute" id="nav">
     <div class="container">
         <div class="row">
             <div class="navbar-header">
@@ -64,28 +66,64 @@
                     <li class="active"><a href="index.html">Home</a></li>
                     <li ><a href="mission.html">Mission</a></li>
                     <li ><a href="task.html">Task</a></li>
+                    <li ><a href="peoples.html">Peoples</a></li>
+                    <li ><a href="publications.html">Publications</a></li>
+                    <li ><a href="events.html">Events</a></li>
                 </ul>
             </div><!--/.navbar-collapse -->
         </div>
     </div>
-</nav><!--Header-->
-<header class="container-fluid header-padding">
+</nav>
+<!--Header-->
+<header class="container-fluid">
+    <div class="row">
+        <div class="flexslider">
+            <ul class="slides">
+                <li style="display:block">
+                    <img src="images/carousel/picture-1.jpg" />  
+                    <div class="back-overlay"></div>
+                    <div class="flex-caption">
+                        <h2>Banner headline text</h2>
+                        <!--<span></span>-->
+                        <p>Some smaller text in banner</p>
+                        <p><a href="#" class="btn btn-orange btn-round">Some link</a></p>
+                    </div>
+                </li>
+            </ul>
+           
+        </div>
+    </div>
 </header>
     <!-- Content-->
     <div class="container-fluid main-container">
-        <div class="row main-content bg-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <span class="big-header">Evolving Language Ecosystems (ELE)</h1> 
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="row block-content">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 font-17">
+                        <span class="big-header full text-center">Evolving Language Ecosystems (ELE)</span>
+                        <span class="small-header full text-center padding-bottom">Evolving Language Ecosystems (ELE)</span>
+                        <p>
+                            A computer language is more than the code that the programmers write or the compiler used to translate it into machine instructions. 
+                            Modern languages are characterized by a rich ecosystem that includes a multitude of source of information from open source code repositories, 
+                            help pages and manuals, all the way to discussion forums such as Stackoverflow.
+                        </p>
+                        <p>
+                            The ELE project explores the fundamental techniques and algorithms for evolving entire language ecosystems. Our purpose is to reduce the cost of wide-ranging 
+                            changes to programming languages and obviate the need for devising entirely new languages. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid main-container bg-1">
+        <div class="row block-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 font-17">
+                        <span class="big-header full text-center">Dark background for Evolving Language Ecosystems </span>
+                        <span class="small-header full text-center padding-bottom">Evolving Language Ecosystems</span>
                         <p>
                             A computer language is more than the code that the programmers write or the compiler used to translate it into machine instructions. 
                             Modern languages are characterized by a rich ecosystem that includes a multitude of source of information from open source code repositories, 
@@ -102,8 +140,33 @@
     </div>
 
     <!--Footer-->
-    <footer class="container-fluid">
-    <p>© Copyright Czech technical university in Prague 2016-2017 | made by <a href="http://www.catchexception.cz/" target="_blank">Catchexception s.r.o.</a></p>
+  
+<footer>
+  <div class="container-fluid" id="menu">
+      <nav class="navbar-inverse relative">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header pull-left">
+                    <a href="index.html" class="navbar-brand"><img src="images/erc_logo_inv.png"></a>
+                </div>
+                <div class="text-center">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li ><a href="mission.html">Mission</a></li>
+                        <li ><a href="task.html">Task</a></li>
+                        <li ><a href="peoples.html">Peoples</a></li>
+                        <li ><a href="publications.html">Publications</a></li>
+                        <li ><a href="events.html">Events</a></li>
+                    </ul>
+                </div><!--/.navbar-collapse -->
+            </div>
+        </div>
+    </nav>
+  </div>
+  
+  <div class="container-fluid" id="copyright">
+      <p>© Copyright Evolving Language Ecosystems 2016-2017 | made by <a href="http://www.catchexception.cz/" target="_blank">Catchexception s.r.o.</a></p>
+  </div>
 </footer>
     <!--Loader-->
 </div>
@@ -118,8 +181,6 @@
         <script src="js/bootstrap.mind41d.js?"></script>
         <script src="js/jquery.flexsliderd41d.js?"></script>
         <script src="js/customd41d.js?"></script>
-
-
 </body>
 
 <!-- Mirrored from ctu-prague-web.dev.catchx.cz/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Sep 2016 09:55:14 GMT -->
