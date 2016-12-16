@@ -49,22 +49,21 @@ $(document).ready(function(){
         $("#background").removeClass('background-stat');
         $("#background").addClass('background-anim');
     }
-
-    footerPosition();
-
+    $(window).on("load", function() {
+        footerPosition();
+    });
 });
 
 $( window ).resize(function() {
     footerPosition();
 });
 
-$( window ).scroll(function() {
+/*$( window ).scroll(function() {
     footerPosition();
-});
+});*/
 
 function footerPosition()
 {   
-    $(document).ready(function(){
       var w_h = $(window).height();
       var w_w = $(window).width(); 
       var b_h = $('body').height();
@@ -79,8 +78,7 @@ function footerPosition()
       {
           $('footer').removeClass("fixed");
           $('body').css("margin-bottom","auto");
-      } 
-    });  
+      }  
 }
 
 // FlexSlider plugin
