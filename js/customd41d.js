@@ -51,10 +51,11 @@ $(document).ready(function(){
     }
 
     footerPosition();
-    $( window ).resize(function() {
-        footerPosition();
-    });
 
+});
+
+$( window ).resize(function() {
+    footerPosition();
 });
 
 function footerPosition()
