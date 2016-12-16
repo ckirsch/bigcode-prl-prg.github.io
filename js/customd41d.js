@@ -58,22 +58,29 @@ $( window ).resize(function() {
     footerPosition();
 });
 
+$( window ).scroll(function() {
+    footerPosition();
+});
+
 function footerPosition()
-{
-    var w_h = $(window).height();
-    var w_w = $(window).width(); 
-    var b_h = $('body').height();
-    var f_h = $('footer').height();
-    if(b_h<w_h && w_w>768)
-    {
-        $('footer').addClass("fixed");
-        $('body').css("margin-bottom",f_h);
-    }
-    else
-    {
-        $('footer').removeClass("fixed");
-        $('body').css("margin-bottom","auto");
-    }   
+{   
+    $(document).ready(function(){
+      var w_h = $(window).height();
+      var w_w = $(window).width(); 
+      var b_h = $('body').height();
+      var f_h = $('footer').height();
+      console.log(b_h+"-"+w_h+"-"+w_w);
+      if(b_h<w_h && w_w>768)
+      {
+          $('footer').addClass("fixed");
+          $('body').css("margin-bottom",f_h);
+      }
+      else
+      {
+          $('footer').removeClass("fixed");
+          $('body').css("margin-bottom","auto");
+      } 
+    });  
 }
 
 // FlexSlider plugin
