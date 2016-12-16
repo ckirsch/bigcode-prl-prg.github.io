@@ -63,12 +63,18 @@ function footerPosition()
     var w_h = $(window).height();
     var w_w = $(window).width(); 
     var b_h = $('body').height();
+    var f_h = $('footer').height();
     if(b_h<w_h && w_w>768)
     {
+        console.log(w_h+"-"+b_h+"-"+w_w)
         $('footer').addClass("fixed");
+        $('body').css("margin-bottom",f_h);
     }
     else
-        $('footer').removeClass("fixed");   
+    {
+        $('footer').removeClass("fixed");
+        $('body').css("margin-bottom","auto");
+    }   
 }
 
 // FlexSlider plugin
