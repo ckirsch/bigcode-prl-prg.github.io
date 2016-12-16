@@ -66,7 +66,6 @@ function footerPosition()
     var f_h = $('footer').height();
     if(b_h<w_h && w_w>768)
     {
-        console.log(w_h+"-"+b_h+"-"+w_w)
         $('footer').addClass("fixed");
         $('body').css("margin-bottom",f_h);
     }
