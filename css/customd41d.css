@@ -278,7 +278,8 @@ body {
 .pn-name {
     font-size: xx-large;
     font-weight: bold;
-    font-style: italic;
+    /*font-style: italic;*/
+    font-family: 'Roboto', sans-serif;
 }
 .pn-muted {
     margin-top: 45px;
@@ -399,7 +400,7 @@ footer .navbar-inverse, .navbar-inverse .navbar-nav>.active>a:hover {
 }
 
 .header-padding{
-  padding-top: 64px;
+  padding-top: 70px;
 }
 
 a{
