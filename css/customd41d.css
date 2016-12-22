@@ -197,15 +197,24 @@ body {
   position: absolute;
   top: 0px;
   padding-top:0px;
+  height:85px;
 }
 
 .navbar-brand>img{
-  max-height:64px;
+  max-height:70px;
+}
+
+.navbar-header .navbar-brand>img{
+  max-height:110px;
 }
 
 @media (max-width: 768px) {
   .navbar-brand>img{
     max-height:40px;
+  }
+  
+  .navbar-header .navbar-brand>img{
+    max-height:60px;
   }
 }
 
@@ -388,6 +397,14 @@ footer .navbar-inverse, .navbar-inverse .navbar-nav>.active>a:hover {
     position:fixed;
 }
 
+.margin-bottom{
+    margin-bottom:10px;
+}
+
+.margin-top{
+    margin-top:10px;
+}
+
 .pn-citation{
     font-size:18px;
     font-weight: bold;
@@ -403,6 +420,11 @@ footer .navbar-inverse, .navbar-inverse .navbar-nav>.active>a:hover {
   padding-top: 70px;
 }
 
+@media (max-width: 768px) {
+  .header-padding {
+      padding-top: 60px;
+  }
+}
 a{
   color:#012754;
 }
