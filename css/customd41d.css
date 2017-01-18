@@ -426,7 +426,12 @@ footer .navbar-inverse, .navbar-inverse .navbar-nav>.active>a:hover {
   }
 }
 a{
-  color:#012754;
+  /*color:#012754;*/
+  color:#F46624;
+}
+
+a:focus, a:hover, a:active{
+  color:#CE561E;
 }
 
 .full{
