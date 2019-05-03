@@ -4,16 +4,17 @@
 {% assign students = page.people | where:'type', 'student' %}
 {% assign alumnis = page.people | where:'type', 'alumni' %}
 {% assign admins = page.people | where:'type', 'admin' %}
+{% assign principal = page.people | where:'type', 'principal' %}
 
 <!--Header-->
 <header class="container-fluid header-padding"></header>
 <!-- Content-->
 <div class="container-fluid main-container" id="people">
+    {% include people-listing.html title="Principal Investigator" people=principal %}
+
     {% include people-listing.html title="Research staff" people=research_staff %}
 
-    {% include people-listing.html title="Students" people=students %}
-
-    {% include people-listing.html title="Administrative Staff" people=admins %}
+    <!-- { include people-listing.html title="Administrative Staff" people=admins } -->
 
     <!--    { include people-listing.html title="Alumni and Former Members" people=alumnis } -->
 </div>

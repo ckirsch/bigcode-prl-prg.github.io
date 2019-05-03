@@ -2,7 +2,7 @@
 layout: people
 title: People
 people:
-  - type: researcher
+  - type: principal
     name: Jan Vitek
     photo: jan_vitek.jpg
     title: Professor
@@ -26,7 +26,7 @@ people:
     - Joined Czech Technical University, 2016
     note: "I work in a subfield of Machine Learning called Reinforcement Learning. My aim is to create machine that reason about the world in abstract terms and can reuse these abstractions to learn new skills faster."
 
-  - type: student
+  - type: researcher
     name: Petr Maj
     photo: petr_maj.jpg
     title: PhD student
