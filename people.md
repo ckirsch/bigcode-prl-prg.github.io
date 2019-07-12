@@ -40,6 +40,29 @@ people:
     - Erasmus Scholarship at University of Bristol, UK, 2006-2007
     note: "I used to work professionally on PS3 and PS Vita compilers and toolchains. I am interested in design, analysis and optimization of programming languages (mostly dynamic), big code & synthesis and embedded systems. Currently I am working on large scale analysis of code on Github (mostly JavaScript)." 
 
+  - type: researcher
+    name: Konrad Siek
+    photo: konrad_siek.jpg
+    title: Post-doctoral researcher
+    email: siekkonr@fit.cvut.cz
+    web: https://kondziu.github.io
+    bio:
+    - Joined Czech Technical University, 2017
+    - PhD, Poznań University of Technology, 2017
+    note: "I am interested in contributing to programming language research, which is a new field to me. I have a background in distributed computing, concurrency, and transactional memory. I am currently exploring the R language, its compilation, tracing, and static analysis."
+    
+  - type: researcher
+    name: Guido Chari
+    photo: guido_chari.jpg
+    title: Post-doctoral researcher
+    email: guido.chari@fit.cvut.cz
+    web: http://lafhis.dc.uba.ar/en/~gchari
+    bio:
+    - Joined Czech Technical University, 2018
+    - PhD, Buenos Aires University, 2017
+    note: "My main research interest aims at making programming languages more flexible. I am also interested in ensuring that dynamic PLs do not suffer from prohibitive performance overheads. In addition, I am interested in providing mechanism to help developers reason about the correctness of their programs."
+   
+
   - type: admin
     name: Lucie Lerch
     photo: lucie_lerch.jpg
