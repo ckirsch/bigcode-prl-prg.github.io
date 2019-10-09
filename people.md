@@ -16,21 +16,6 @@ people:
     - MSc, University of Victoria, 1995
     note: "I work on the design and implementation of programming languages. I led the implementation of the first real-time Java virtual machine to be flight-tested. With Noble and Potter, I proposed what became known as Ownership Types.  I tried to understand JavaScript by dynamic analysis and am now looking at supporting scalable data analysis in R."
 
-
-  - type: researcher
-    name: Petr Maj
-    photo: petr_maj.jpg
-    title: PhD student
-    email: majpetr@fit.cvut.cz
-    web: https://peta.bitbucket.io
-    bio:
-    - Joined Czech Technical University, 2016   
-    - Worked at 0xdata (Silicon Walley, CA), 2012-2013
-    - Worked at SN Systems (Bristol, UK), 2010-2012
-    - Graduate Student at Purdue, IN, 2009-2010
-    - Erasmus Scholarship at University of Bristol, UK, 2006-2007
-    note: "I used to work professionally on PS3 and PS Vita compilers and toolchains. I am interested in design, analysis and optimization of programming languages (mostly dynamic), big code & synthesis and embedded systems. Currently I am working on large scale analysis of code on Github (mostly JavaScript)." 
-
   - type: researcher
     name: Konrad Siek
     photo: konrad_siek.jpg
@@ -68,6 +53,20 @@ people:
     - Post-doc at Brno University of Technology, 2012
     - Ph.D., Czech Technical University, 2012
     note: "Being a curious person, I am fascinated by the new Machine Learning techniques, that can bring an additional value of intelligence to nearly every field in our lives. My current goal is to implement Machine Learning methods in the project." 
+
+  - type: researcher
+    name: Petr Maj
+    photo: petr_maj.jpg
+    title: Researcher
+    email: majpetr@fit.cvut.cz
+    web: https://peta.bitbucket.io
+    bio:
+    - Joined Czech Technical University, 2016   
+    - Worked at 0xdata (Silicon Walley, CA), 2012-2013
+    - Worked at SN Systems (Bristol, UK), 2010-2012
+    - Graduate Student at Purdue, IN, 2009-2010
+    - Erasmus Scholarship at University of Bristol, UK, 2006-2007
+    note: "I used to work professionally on PS3 and PS Vita compilers and toolchains. I am interested in design, analysis and optimization of programming languages (mostly dynamic), big code & synthesis and embedded systems. Currently I am working on large scale analysis of code on Github (mostly JavaScript)." 
 
   - type: researcher
     name: Jan Ječmen
