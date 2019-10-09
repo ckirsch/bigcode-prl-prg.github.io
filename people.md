@@ -52,7 +52,8 @@ people:
     - Joined Czech Technical University, 2018
     - PhD, Buenos Aires University, 2017
     note: "My main research interest aims at making programming languages more flexible. I am also interested in ensuring that dynamic PLs do not suffer from prohibitive performance overheads. In addition, I am interested in providing mechanism to help developers reason about the correctness of their programs."
-  
+ 
+ 
   - type: researcher
     name: Alexander Kovalenko
     photo: alexander_kovalenko.jpg
@@ -67,6 +68,15 @@ people:
     - Post-doc at Brno University of Technology, 2012
     - Ph.D., Czech Technical University, 2012
     note: "Being a curious person, I am fascinated by the new Machine Learning techniques, that can bring an additional value of intelligence to nearly every field in our lives. My current goal is to implement Machine Learning methods in the project." 
+
+  - type: researcher
+    name: Jan Ječmen
+    photo: jan_jecmen.jpg
+    title: Researcher
+    email: jan.jecmen@gmail.com
+    bio:
+    - Joined Czech Technical University, 2016
+    note: "I am a master's student at FIT CTU. I am interested in implementation of programming languages."
 
   - type: admin
     name: Lucie Lerch
