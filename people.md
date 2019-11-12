@@ -69,6 +69,17 @@ people:
     note: "I used to work professionally on PS3 and PS Vita compilers and toolchains. I am interested in design, analysis and optimization of programming languages (mostly dynamic), big code & synthesis and embedded systems. Currently I am working on large scale analysis of code on Github (mostly JavaScript)." 
 
   - type: researcher
+    name: Anna Bolotina
+    photo: anna_bolotina.png
+    title: Research assistant
+    email: ann-bolotina@yandex.ru
+    web: https://annbolotina.github.io
+    bio:
+    - Joined Czech Technical University, 2019
+    - BS, Southern Federal University, 2018
+    note: "I'm interested in PL design and implementation, compilers, and functional programming. I used to work on generic programming in Haskell. I also worked at SFedU on an educational programming language PascalABC.NET and explored syntactic sugar models. Currently, I am exploring the Racket language and macro system."
+
+  - type: researcher
     name: Jan Ječmen
     photo: jan_jecmen.jpg
     title: Researcher
