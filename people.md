@@ -3,6 +3,24 @@ layout: people
 title: People
 people:
   - type: principal
+    name: Christoph Kirsch
+    photo: christoph_kirsch.jpg
+    title: Professor
+    email: ck@cs.uni-salzburg.at 
+    web: http://www.cs.uni-salzburg.at/~ck/
+    bio:
+    - Joined Czech Technical University, 2020
+    - ACM Distinguished Speaker, 2017
+    - Visiting Professor at UC  Berkeley, 2014
+    - ACM SIGBED chair, 2011-2013
+    - Visiting Scholar at UC Berkeley, 2008-2013
+    - Co-founder of EMSOFT, 2001
+    - Postdoc at UC Berkeley, 1999-2004
+    - Dr.Ing. from Saarland University while at the Max Planck Institute for CS in Saarbrücken, 1999
+    note: "I am interested in programming languages and systems, in particular concurrent programming and memory management. I also care about formal methods, especially bit-precise reasoning through symbolic execution and bounded model checking. People in computer science know me for co-inventing logical execution time and the embedded programming language Giotto which by now have made their way into modern cars around the world."
+
+
+  - type: researcher
     name: Jan Vitek
     photo: jan_vitek.jpg
     title: Professor
@@ -31,14 +49,13 @@ people:
     name: Guido Chari
     photo: guido_chari.jpg
     title: Post-doctoral researcher
-    email: guido.chari@fit.cvut.cz
+    email: charigui@fit.cvut.cz
     web: http://lafhis.dc.uba.ar/en/~gchari
     bio:
     - Joined Czech Technical University, 2018
     - PhD, Buenos Aires University, 2017
     note: "My main research interest aims at making programming languages more flexible. I am also interested in ensuring that dynamic PLs do not suffer from prohibitive performance overheads. In addition, I am interested in providing mechanism to help developers reason about the correctness of their programs."
- 
- 
+
   - type: researcher
     name: Alexander Kovalenko
     photo: alexander_kovalenko.jpg
@@ -52,8 +69,8 @@ people:
     - Post-doc at Jaume I University, 2013
     - Post-doc at Brno University of Technology, 2012
     - Ph.D., Czech Technical University, 2012
-    note: "Being a curious person, I am fascinated by the new Machine Learning techniques, that can bring an additional value of intelligence to nearly every field in our lives. My current goal is to implement Machine Learning methods in the project." 
-
+    note: "Being a curious person, I am fascinated by the new Machine Learning techniques, that can bring an additional value of intelligence to nearly every field in our lives. My current goal is to implement Machine Learning methods in the project."
+   
   - type: researcher
     name: Petr Maj
     photo: petr_maj.jpg
@@ -78,6 +95,16 @@ people:
     - Joined Czech Technical University, 2019
     - BS, Southern Federal University, 2018
     note: "I'm interested in PL design and implementation, compilers, and functional programming. I used to work on generic programming in Haskell. I also worked at SFedU on an educational programming language PascalABC.NET and explored syntactic sugar models. Currently, I am exploring the Racket language and macro system."
+    
+  - type: researcher
+    name: Hyeyoung Shin
+    photo: hyeyoung_shin.jpg
+    title: Research Assistant
+    web: https://hyeyoungshin.github.io/
+    bio:
+    - Joined Czech Technical Univeristy, 2019
+    - MA, Northeastern University, May 2019
+    note: "I am interested in logic and foundations of computing science, and more specifically programming languages theory. I am currently learning the R language and how to help programmers test their R programs better."
 
   - type: researcher
     name: Jan Ječmen
