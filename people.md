@@ -45,7 +45,7 @@ people:
     - PhD, Poznań University of Technology, 2017
     note: "I am interested in contributing to programming language research, which is a new field to me. I have a background in distributed computing, concurrency, and transactional memory. I am currently exploring the R language, its compilation, tracing, and static analysis."
     
-  - type: researcher
+  - type: alumni
     name: Guido Chari
     photo: guido_chari.jpg
     title: Post-doctoral researcher
